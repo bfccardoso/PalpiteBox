@@ -1,0 +1,28 @@
+.wrapper {
+    @apply bg-gray-700;
+    @apply p-4;
+}
+
+.menu {
+    @apply bg-gray-300;
+    @apply p-4;
+    @apply shadow-md;
+    @apply text-center;
+}
+
+.links {
+    @apply hover:underline;
+}
+
+._container {
+    @apply container;
+    @apply mx-auto;
+    @apply text-center;
+    @apply font-bold;
+    @apply text-white;
+}
+
+.logo {
+    @apply inline;
+    @apply p-4;
+}
